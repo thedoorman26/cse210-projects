@@ -17,7 +17,7 @@ using System;
 
             while (scripture.WordsHidden < scripture.Words.Count)
             {
-                Console.WriteLine("Press enter to hide more words or type 'quit' to end:");
+                Console.WriteLine("\nPress enter to hide more words or type 'quit' to end:");
                 string userInput = Console.ReadLine();
 
                 if (userInput.ToLower() == "quit")
@@ -29,7 +29,7 @@ using System;
                 scripture.Display();
             }
 
-            Console.WriteLine("All words hidden. Goodbye!");
+            Console.WriteLine("\nAll words hidden. Goodbye!");
         }
     }
 
