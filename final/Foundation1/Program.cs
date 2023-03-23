@@ -35,7 +35,5 @@ class Program
 
             Console.WriteLine(); 
         }
-
-        Console.ReadLine();
     }
 }
