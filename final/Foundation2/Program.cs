@@ -28,4 +28,4 @@ using System;
             Console.WriteLine(order2.GetShippingLabel());
             Console.WriteLine("Order 2 Total Price: $" + order2.GetTotalPrice() + "\n");
         }
-    }
+    } 
